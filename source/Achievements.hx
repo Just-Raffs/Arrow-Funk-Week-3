@@ -11,11 +11,11 @@ using StringTools;
 
 class Achievements {
 	public static var achievementsStuff:Array<Dynamic> = [ //Name, Description, Achievement save tag, Hidden achievement
-		["Freaky on a Friday Night",	"Play on a Friday... Night.",						'friday_night_play',	 true],
-		["First Steps",					"Beat Tutorial on Hard with no Misses.",			'tutorial_nomiss',		false],
-		["you are the RAP KING",		"Beat Week 1 on Hard with no Misses.",				'week1_nomiss',			false],
-		["Acid Lemonade",				"Beat Week 2 on Hard with no Misses.",				'week2_nomiss',			false],
-		["UNTOUCHABLE",					"Beat Week 3 on Hard with no Misses.",				'week3_nomiss',			false],
+		["Ficando doidinho numa noite de sexta",	"Jogue numa... Noite de sexta.",						'friday_night_play',	 true],
+		["Primeiros passos",					"Vença o Tutorial no modo Difícil com um FC.",			'tutorial_nomiss',		false],
+		["Cê é o Rei do Rap!",		"Vença a Semana 1 no modo Difícil com um FC.",				'week1_nomiss',			false],
+		["Limonada sem açúcar",				"Vença a Semana 2 no modo Difícil com um FC.",				'week2_nomiss',			false],
+		["INTOCÁVEL!",					"Vença a Semana 3 no modo Difícil com um FC.",				'week3_nomiss',			false],
 		//["Lady Killer",					"Beat Week 4 on Hard with no Misses.",				'week4_nomiss',			false],
 		//["Missless Christmas",			"Beat Week 5 on Hard with no Misses.",				'week5_nomiss',			false],
 		//["Highscore!!",					"Beat Week 6 on Hard with no Misses.",				'week6_nomiss',			false],
@@ -27,8 +27,8 @@ class Achievements {
 		//["Hyperactive",					"Finish a Song without going Idle.",				'hype',					false],
 		//["Just the Two of Us",			"Finish a Song pressing only two keys.",			'two_keys',				false],
 		//["Toaster Gamer",				"Have you tried to run the game on a toaster?",		'toastie',				false],
-		["Wolves",						"Beat -debug on Hard with no Misses.",				'debugger',				false],
-		["CRUZES!",						"Beat Earthquake on Hard with no Misses.",			'cruzes',				false]	
+		["*Wolves começa a tocar*",						"Vença a música -debug no modo Difícil com um FC.",				'debugger',				false],
+		["CRUZES!",						"Vença a música Terremoto/Earthquake no modo Difícil com um FC.",			'cruzes',				false]	
 		
 	];
 	public static var achievementsMap:Map<String, Bool> = new Map<String, Bool>();
